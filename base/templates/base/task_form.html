@@ -4,8 +4,9 @@
 <a href="{% url 'tasks'%}">Go back</a>
 
 <form  method="POST">
-  {{form.as_p}}
   {%csrf_token%}
+  {{form.as_p}}
+  
   <input type="Submit" name="" value="Save">
 
 </form>

@@ -30,6 +30,8 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['to-do-list-production-6c38.up.railway.app', '127.0.0.1']
 
+CSRF_TRUSTED_ORIGINS = ['https://web-production-3640.up.railway.app']
+
 
 # Application definition
 
